@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2C47;
+    color: #fff;
+    font-family: 'Inter'; 
+}
+.incio{
+    height: 50px;
+    position: relative;
+}
+.promo{
+    width: 680px;
+    position: absolute;
+    right: 27%;
+    top: 15px;
+}
+.social-media{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+.main-menu{
+    height: 150px;
+    background-image: url(img/fondo\ gatitos\ index.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 150px;
+}
+#logo img{
+    height: inherit;
+}
+.mostrar_menu,
+.esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.sesion{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sesion a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.usr-cart{
+    width: 250px;
+}
+.icono{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr a{
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    height: 300vh;
+}
+.quien{
+    height: 410px;
+}
+.quien img{
+    width: 94%;
+    position: absolute;
+    left: 54px;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: #fffefeaf;   
+}
+.container{
+    margin-left: 44px;
+    display: flex;
+    flex-direction: column;
+}
+.veterinario{
+    display: flex;
+    margin-top: 39px;
+}
+.veterinario img{
+    width: 20%;
+    height: 43vh;
+}  
+.vet{
+    font-size: 1.3em;
+    text-align: justify;
+    width: 70%;
+    margin-left: 30px;   
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.agendaCita{
+    position: relative;
+    width: 100%;
+}
+#bnner{
+    margin-left: 17%;
+}
+.agendar_cita{
+    position: absolute;
+    bottom: 30%;
+    right: 32%;
+    background-color: #18456d8f;
+    padding: .4em;
+    height: 3em;
+    border-radius: 4px;
+    width: 17em;
+}
+.agendar_cita a{
+    text-decoration: none;
+    margin-left: 1.3em;
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+
+}
+.gatitos img{
+    width: 100%; 
+}
+footer{
+    background-image: url(img/Rectangle\ 54.png);
+    height: 40vh;
+}
+.contenedor_cuadra2{
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor_servis{
+    align-content: center;
+    background-color: #1D4A78;
+    border-radius: 10px;
+    width: 15%;
+    height: 33vh;
+}
+.contenedor_servis li{
+    margin-bottom: 9%;
+}
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -5%;
+
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.titul{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -45%;
+}
+#ubicacion{
+    margin-left: 11%;
+    margin-top: -11%;
+}
+.fonseca{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -4%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;   
+}
+.wpp{
+    margin-left: 12%;
+}
+@media screen and (max-width:1877px) {
+
+    
+}
+
+@media (max-width:1366px){
+    .main-menu img{
+        background-color: blueviolet;
+    }
+    .sesion{
+        width: 70%;
+        background-color: antiquewhite;
+    }
+    .usr-cart {
+        background-color: aqua;
+    }
+    .carr{
+        background-color: #0F2C47;
+    }
+}

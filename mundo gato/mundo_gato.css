@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0F2C47;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #fff;
+}
+.incio{
+    height: 50px;
+    position: relative;
+}
+.promo{
+    width: 680px;
+    position: absolute;
+    right: 27%;
+    top: 15px;
+}
+.social-media{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 4%;
+    top: 10px;
+}
+.main-menu{
+    height: 150px;
+    background-image: url(img/fondo\ gatitos\ index.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 180px;
+}
+#logo img{
+    height: inherit;
+}
+.mostrar_menu,
+.esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.sesion{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sesion a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.usr-cart{
+    width: 250px;
+}
+.icono{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr a{
+    text-decoration: none;
+    color: #fff;
+}
+#sesion1{
+    height: 100vh;
+    /* background-color: beige; */
+}
+.mundo-gato {
+    height: 858px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mundo-gato::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#sesion1 h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    margin: 20px;
+}
+.parrafos {
+    width: 46%;
+    height: 580px;
+    font-size: 1.7em;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 700;
+}
+.img_cat{
+    height: 580px;
+    object-fit: cover;
+    padding: 10px;
+}
+.parrafo3{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254, 85%);
+}
+.parrafo3 p{
+    color: #0E174F;
+}
+#sesion2{
+    height: 150vh;
+}
+.consejos{
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 37px;
+    position: relative;
+}
+.titul1o{
+    font-size: 1.6em;
+}
+.preparaciones{
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    left: 4%;
+    text-align: justify;
+    background-color: #fff;
+}
+.preparaciones p{
+    color: #0E174F;
+    font-size: 18px;
+}
+.gatitos img{
+    width: 100%;
+    position: relative;
+    top: 9px;
+    
+}
+footer{
+    background-image: url(img/Rectangle\ 54.png);
+    padding: 20px;
+    /* height: 40vh; */
+}
+.contenedor_cuadra2{
+    /* height: 40vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor_servis{
+    align-content: center;
+    background-color: #1D4A78;
+    border-radius: 10px;
+    width: 290px;
+    height: 33vh;
+}
+.contenedor_servis li{
+    margin-bottom: 9%;
+}
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -5%;
+
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.titul{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -45%;
+}
+#ubicacion{
+    margin-left: 11%;
+    margin-top: -11%;
+}
+.fonseca{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -4%;
+}
+.navigation{
+    padding: ;
+    margin-left: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;   
+}
+.wpp{
+    margin-left: 12%;
+}
+
+@media screen and (max-width:1900px ) {
+    
+}
+

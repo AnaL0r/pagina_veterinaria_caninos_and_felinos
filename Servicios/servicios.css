@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2C47;
+    color: #fff;
+    font-family: 'Inter';
+}
+.primera_compra{
+   text-align: center;
+    font-size: 10px;
+}
+.icon-face, .icon-insta, .icon-wpp, .icon-tw{
+    width: 100%;
+}
+.iconos {
+    position: relative;
+    display: flex;
+    gap: 1.5vw;
+    left: 86.7vw;
+    bottom: 1.1vw;
+    width: 10vw;
+}
+header{
+    height: 14vh;
+}
+.fondo-gatos {
+    background-image: url(img/fondo\ gatitos\ index.jpg);
+    width: 99.1vw;
+    position: relative;
+    bottom:2vh;
+}
+.logo {
+    position: relative;
+    bottom: 18vh;
+    left: 1vw;
+}
+nav.barraNav{
+    position: relative;
+    bottom: 36vh;
+    height: 3vw; 
+
+}
+.barraNav ul{
+    display: flex;
+    gap: 13vw;
+    position: relative;
+    left: 15vw;
+    top: 2.5vh;
+    
+}
+ul{
+    width: 70vw;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em; 
+}
+.barraNav ul .equipo{
+    width: 10vw;
+}
+.barraNav ul li{
+    list-style: none;
+}
+.user_{
+    display: flex;
+    gap: 3.8vw;
+    position: relative;
+    bottom: 43vh;
+    left: 87vw;
+    width: 5vw;
+}
+.micuenta ul{
+    display: flex;
+    gap: 3vw;
+    position: relative;
+    bottom: 43vh;
+    left: 84.3vw;
+    width: 12vw;
+}
+.micuenta ul li{
+    list-style: none;
+    font-size: 10px;
+}
+main{
+    height: 235vh;
+    
+}
+.banner_pelu{
+    width: 100%;
+    position: relative;
+    top: 4.5vh;
+}
+.gatos{
+    width: 95%;
+    position: relative;
+    top: 80px;
+    left: 47px;
+}
+.circule{
+    height: 14.5vh;
+    width: 16.5vw;
+    margin: 5%;
+    padding: 5%;
+    background-color: aliceblue;
+    border-radius: 50%;  
+}
+.circule_servicio{
+    width: 92.1vw;
+    display: flex;
+    gap: 7vw;
+    position: relative;
+    left: 3.5vw;
+    bottom:-10vh;
+}
+.iconos_1{
+    display: flex;
+    gap: 20.5vw; 
+    position: relative;
+    bottom: 14vh;  
+}
+.iconos_1 .icon_vet{
+    position: relative;
+    left: 11vw;
+    bottom: 13vh;
+
+}
+.icon_guarderia{
+    position: relative;
+    left: 10.8vw;
+    bottom: 17.4vh;  
+}
+
+.icon_guarderia img{
+    width: 16.5vw;
+}
+
+.icon_peluqueri{
+    position: relative;
+    left: 9.3vw;
+    bottom: 12.2vh;
+}
+.icon_peluqueri img{
+    width: 12.2vw;
+}
+.rectangule{
+    height: 4vh;
+    width: 15vw;
+    margin: 1%;
+    padding: 1%;
+    background-color: #ffffff8a;
+    border-radius: 0.2vw;
+}
+.rectangule1{
+    width: 90vw;
+    position: relative;
+    left: 7.4vw;
+    display: flex;
+    gap: 14.7vw;
+    bottom: 29vh;
+}
+.nombre_servico{
+    width:65vw ;
+    font-size:1.5vw;
+    display: flex;
+    gap: 26vw;
+    position: relative;
+    left: 13vw;
+    bottom: 36.5vh;
+}
+.circule1{
+    height: 14.5vh;
+    width: 16.5vw;
+    margin: 5%;
+    padding: 5%;
+    background-color: aliceblue;
+    border-radius: 50%;  
+}
+.circule_servicio1 {
+    width: 92.1vw;
+    display: flex;
+    gap: 7vw;
+    position: relative;
+    left: 3.5vw;
+    bottom: 25vh;
+}
+.img_circule2 {
+    width: 80vw;
+    position: relative;
+    bottom: 59.8vh;
+    left: 12.2vw;
+    display: flex;
+    gap: 23.7vw;
+}
+.icon_asesoria img{
+    position: relative;
+    bottom: 2vh;
+}
+
+.icon_urgencias img{
+    position: relative;
+    right: 0.3vw;
+}
+.rectangule-3{
+    height: 4vh;
+    width: 15vw;
+    margin: 1%;
+    padding: 1%;
+    background-color: #ffffff8a;
+    border-radius: 0.2vw;
+}
+.rectangule3 {
+    width: 90vw;
+    position: relative;
+    bottom: 51.5vh;
+    left: 7.4vw;
+    display: flex;
+    gap: 14.7vw;
+}
+.nombre_servico3 {
+    width: 80vw;
+    font-size: 1.5em;
+    display: flex;
+    gap: 29vw;
+    position: relative;
+    left: 15.1vw;
+    bottom: 59.4vh;
+}
+.urgencias3 a{
+    position: relative;
+    right: 3vw;
+}
+hr{
+    height: 1.3vh;
+    background-color: #ffffff;
+    
+    
+}
+.first_divi{
+    display: flex;
+    font-size: 1.3em;
+    align-content: space-evenly;
+}
+.first_divi img{
+    margin: 1vw;
+    position: relative;
+    left: 1.5vw;
+    height: 35vh;
+}
+.first_divi .title{
+    position: relative;
+    top: -1vh;
+    left: 4vw;   
+}
+.first_divi p{
+    width: 90vw;
+    position: relative;
+    top: 4vh; 
+    right: 6vw;
+    font-size: 1.6em;
+    text-align: justify;
+    font-weight: bold;
+}
+.second_divi{
+    display: flex;
+    font-size: 1.3em;
+}
+.second_divi img{
+    margin: 1vw;
+    position: relative;
+    right: 0.5vw;
+    height: 35vh;
+}
+.second_divi .title2{
+    position: relative;
+    bottom: 1vh;
+    left: 1.8vw;
+}
+.second_divi p{
+    height: 20vh;
+    width: 80vw;
+    position: relative;
+    top: 4vh; 
+    right: 7.1vw;
+    font-size: 1.3em;
+    text-align: justify;
+  
+}
+.tree_divi{
+    display: flex;
+    font-size: 1.3em;
+}
+.tree_divi img{
+    margin: 1vw;
+    position: relative;
+    left: 0.5vw;
+    height: 35vh;
+}
+.tree_divi .title3{
+    position: relative;
+    bottom: 1vh;
+    left: 1.8vw;
+}
+.tree_divi p{
+    height: 20vh;
+    width: 80vw;
+    position: relative;
+    top: 4vh; 
+    right: 7.8vw;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.four_divi{
+    display: flex;
+    font-size: 1.3em;
+}
+.four_divi .title4{
+    position: relative;
+    bottom: 1vh;
+    left: 1.8vw;
+}
+.four_divi img{
+    margin: 1vw;
+    position: relative;
+    right: 0.5vw;
+    height: 35vh;
+}
+.four_divi p{
+    height: 20vh;
+    width: 80vw;
+    position: relative;
+    top: 4vh; 
+    right: 1vw;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.five_divi{
+    display: flex;
+}
+.five_divi img{
+    margin: 1vw;
+    position: relative;
+    left: 0.5vw;
+    height: 35vh;
+}
+.five_divi h2{
+    font-size: 2em;
+    margin-left: 2%;
+
+}
+.five_divi p{
+    font-size: 1.6em;
+    position: relative;
+    top: 4vh;
+    right: 8%;
+
+}
+.six_divi{
+    display: flex;
+}
+.six_divi .urgen{
+    font-size: 2em;
+    margin-left: 2%;
+}
+.six_divi .texti{
+    position: relative;
+    top: 10vh;
+    font-size: 1.5em;
+    right: 8%;
+}
+footer{
+    height: 82px
+}
+.gatitos img{
+    width: 100%;
+    position: relative;
+    top: 8px;
+}
+.container_pie_de_pagina img{
+    width: 100%;
+}
+.contenedor_cuadra2{
+    display: flex;
+    gap:5vw;
+    position: relative;
+    bottom:26vw ;
+    justify-content: center;
+}
+.contenedor_servis{
+    width: 15vw;
+    height: 35vh;
+    background-color: #1D4A78;
+    border-radius: 1cap;
+    padding: 2rem;
+}
+.contenedor_servis p{
+    font-size: 2.5em;
+    text-align: center;
+}
+.titulos{
+    position: relative;
+    bottom: 7vh;
+}
+.contenedor_servis li{
+    font-size: 1.2em;
+    margin-bottom: 26px;
+    position: relative;
+    bottom: 7vh;
+}
+.ubicacion{
+    position: relative;
+    bottom: 13vh;
+    left: 1.7vw;
+}
+.contenedor_servis .fonseca{
+    font-size: 1em;
+    position: relative;
+    bottom: 110px;
+}
+.contenedor_servis .whaop{
+    position: relative;
+    bottom: 90px;
+    left: 1.6vw;
+} 
+.contenedor_servis .iconos_fot{
+    list-style: none;
+}
+.contenedor_servis .iconos_fot li{
+    display: inline;
+    margin: 14px;
+  
+}

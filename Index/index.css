@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0F2C47;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #fff;
+}
+.incio{
+    height: 50px;
+    position: relative;
+}
+.promo{
+    width: 680px;
+    position: absolute;
+    right: 27%;
+    top: 15px;
+}
+.social-media{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 4%;
+    top: 10px;
+}
+.main-menu{
+    height: 150px;
+    background-image: url(img/fondo_gatitos.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 180px;
+}
+#logo img{
+    height: inherit;
+}
+.mostrar_menu,
+.esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.sesion{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sesion a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.usr-cart{
+    width: 250px;
+}
+.icono{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr a{
+    text-decoration: none;
+    color: #fff;
+}
+#banners_publicidad{
+    height: 70vh;
+}
+
+.banner_slide{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.banner {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation: fadeEffect 12s infinite;
+}
+.banner:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.banner:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.banner:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    33.33% { opacity: 1; }
+    53.33% { opacity: 0; }
+    100% { opacity: 0; }
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuadro_fondo{
+    width: 330px;
+    height: 330px;
+    border-radius: 18px;
+    background-color: #1A3D5E;
+}
+
+.cuadro_blanco{
+    width: 210px;
+    height: 225px;
+    position: relative;
+    left: 57px;
+    top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 4px solid #51327F;
+    box-shadow: 0px 1px 8px 0px #000000;
+}
+.img_p{
+    position: relative;
+    top: 16px;
+    
+}
+.img_p img{
+    position: relative;
+    left: 45px;
+    top: 2px;
+}
+.Texto{
+    color: #453E3E;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.text{
+    color: #000000;
+}
+.texto p{
+    width: 90%;
+    position: relative;
+    left: 15px;
+}
+.rectangulo{
+    width: 225px;
+    height: 40px;
+    border-radius: 8px;
+    position: relative;
+    top: 35px;
+    left: 55px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+.rectangulo a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0F2C47;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.cuadro_blanco2{
+    width: 210px;
+    height: 225px;
+    position: relative;
+    left: 57px;
+    top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 4px solid #F6AF00;
+    box-shadow: 0px 1px 8px 0px #000000;
+}
+
+.cuadro_blanco3{
+    width: 210px;
+    height: 225px;
+    position: relative;
+    left: 57px;
+    top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 4px solid #4E91B4;
+    box-shadow: 0px 1px 8px 0px #000000;
+}
+#Quienes_somos{
+    width: 100%;
+    height: 51vh;
+    align-content: center;
+}
+#Quienes_somos img{
+    margin-left: 10vw;
+    width: 80%;
+}
+#consulta{
+    height: 30vh;
+    text-align: center;
+}
+#consulta p {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+.tes{
+    color: #F19E62;
+}
+#formi{ 
+    height: 70vh
+}
+#Contenedor_formulario {
+    width: 79.5%;
+    height: 40vh;
+    background-color: #18456D;
+    padding: 2%;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    margin-left: 10%;
+}
+.first_fila, .second_fila, .third_fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+input{
+    border-radius: 0.4cap;
+    background-color: #96B4D7;
+    color: #ffff;
+    border: none;
+    outline: none;
+}
+.nombre, .fecha, .Email, .Telefono{
+    display: grid;
+    gap: 10%;
+}
+
+.nombre input,.Email input,.fecha input, .Telefono input  {
+    width: 35vw;
+    height: 4vh;
+}
+.Email{
+    margin-top: 2%;
+}
+.Telefono{
+   margin-top: 1%;
+}
+#Telefono{
+    margin-top:1%;
+}
+.tipo_de_mascota .pet{
+    display: grid;
+}
+.tipo_de_mascota{
+   margin-top: 2%;
+}
+.motivo_de_cita{
+    margin-top: 3%;
+    display: grid;
+    gap: 11px;
+}
+.motivo_de_cita textarea{
+    width: 35vw;
+    height: 35px;
+    border-radius: 0.5cap;
+    background-color:  #96B4D7;
+    border: none;
+}
+.enviar_for input{
+    width: 79vw;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color: #fd932fb5
+}
+.politicas{
+    margin-left: 10%;
+    margin-top: 0.1%;
+    width: 26vw;
+}
+.politicas b{
+    color: #5C7EF8;
+}
+.politicas label{
+    font-size: 0.7em;
+}
+.publicidad{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gatitos img{
+    width: 100%;
+    position: relative;
+    top: 9px;
+    
+}
+footer{
+    background-image: url(img/Rectangle\ 54.png);
+    padding: 20px;
+}
+.contenedor_cuadra2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor_servis{
+    align-content: center;
+    background-color: #1D4A78;
+    border-radius: 10px;
+    width: 290px;
+    height: 33vh;
+}
+.contenedor_servis li{
+    margin-bottom: 9%;
+}
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -5%;
+
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -5%;
+}
+.titul{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: -45%;
+}
+#ubicacion{
+    /* margin: 5px; */
+    margin-left: 11%;
+    margin-top: -4%;
+}
+.fonseca{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -4%;
+}
+.navigation{
+    margin-left: 50px;
+    margin-top: 18px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;   
+}
+.wpp{
+    margin-left: 10%;
+    padding: 15px;
+
+    
+}
+.pp{
+    padding: 15px;
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1800px){
+    #banners_publicidad{
+        background-color: #8f979e;
+        height:70vh;
+    }
+
+}
+@media screen and (max-width: 1600px){
+    #banners_publicidad{
+        background-color: yellowgreen;
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width: 1700px){
+    #banners_publicidad{
+        height: 70vh;
+    }
+    
+}
+@media screen and (max-width: 1500px){
+    #banners_publicidad{
+        height: 70vh;
+    }
+    
+}
+@media screen and (max-width: 1440px) {
+    #banners_publicidad{
+        height: 60vh;
+    }
+    
+}

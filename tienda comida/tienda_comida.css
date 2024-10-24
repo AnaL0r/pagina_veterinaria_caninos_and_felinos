@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2C47;
+    color: #fff;
+    font-family: 'Inter'; 
+}
+header{
+    height: 180px;
+}
+.promo{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.social-media{
+    width: 15%;
+    display: flex;
+    margin-top: -1.2%;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 4%;
+
+} 
+.promo p{
+    font-size: 11px;
+    font-weight: bold;
+}
+.main-menu {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    background-image: url(img/gatitos.jpg);
+    position: relative;
+    top: 15px;
+}
+.sesion{
+    width: 980px;
+    display:flex ;
+    justify-content: space-evenly;
+    position: relative;
+    left: 12.8%;
+}
+.sesion a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#logo{
+    width: 6.5%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.mostrar_menu, .esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.usr-cart{
+    width: 12%;
+    position: relative;
+    left: 23.5%;
+}
+.icono{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.carr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.usr-cart a{
+    text-decoration: none;
+    color: #fff;
+}
+#banner{
+    height: 75vh;
+}
+#banner img{
+    width: 100%;
+}
+#estand1{
+    height:700px ;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1%;
+}
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.contenedor1{
+    background-color: #fff;
+    width: 320px;
+    height: 410px;
+    border: 3px solid #01AEBC;
+    border-radius: 10px
+}
+.contenedor2{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #AE8B1E;
+    border-radius: 10px
+}
+.contenedor3{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #F6AF00;
+    border-radius: 10px
+}
+.contenedor4{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #951C7C;
+    border-radius: 10px
+}
+.contenedor5{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #CD1E87;
+    border-radius: 10px
+}
+.contenedor6{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #FBB615;
+    border-radius: 10px
+}
+.contenedor7{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #01AEBC;
+    border-radius: 10px
+}
+.contenedor8{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #374754;
+    border-radius: 10px
+}
+.contenedor9{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #A90A32;
+    border-radius: 10px
+}
+.contenedor10{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #CC1381;
+    border-radius: 10px
+}
+.contenedor11{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #26790D;
+    border-radius: 10px
+}
+.contenedor12{
+    background-color: #fff;
+    width: 250px;
+    height: 380px;
+    border: 3px solid #BB082E;
+    border-radius: 10px
+}
+.contenedor1 p, .contenedor2 p, .contenedor3 p, .contenedor4 p, .contenedor5 p, .contenedor6 p, .contenedor7 p,
+.contenedor8 p, .contenedor9 p, .contenedor10 p, .contenedor11 p, .contenedor12{
+    color: #444444;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.contenedor1 .producto{
+    max-width: 30%;
+    margin-left: 36%;
+    margin-top: 3%;
+    background-color: #26790D;
+}
+.resultado{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #01AEBC;
+}
+.cantidad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #A4A4A4;
+    width: 80px;
+    height: 30px;
+}
+.añadir_carrit{
+    width: 150px;
+    height: 30px;
+    background-color: #951C7C;
+}
+.contenedor .product{
+    max-width: 30%;
+
+}
+hr{
+    height: 0.5%;
+    background-color: #444444;
+}
+#estand2{
+    height: 70vh;
+}
+.prom{
+    max-width: 40%;
+    margin-top: -14%;
+    margin-left: -10%;
+}

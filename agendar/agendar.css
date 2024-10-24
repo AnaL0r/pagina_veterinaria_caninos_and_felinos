@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2C47;
+    color: #fff;
+    font-family: 'Inter'; 
+}
+header{
+   height: 20vh;
+}
+.promo{
+    text-align: center;
+    font-size: 0.7em;
+}
+.social-media img{
+    max-width: 100%;
+    margin-inline: 1%;
+    position: relative;
+    left: 81%;
+}
+.social-media {
+    width: 100%;
+    position: absolute;
+    top: 3px;
+}
+#IMG{
+    width: 100%;
+    height: 16vh;
+    position: absolute;
+}
+#logo{
+    max-width: 100%;
+    height: 25vh;
+    position: relative;
+    top: -17px;  
+    left: 2%;
+}
+.mostrar_menu, .esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.main-menu {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 35px; 
+}
+.sesion a{
+    margin-inline: 5%;
+    position: relative;
+    top: 50px;
+    left: 16%;
+}
+.sesion b{
+    font-size: 1.3em;
+    position: relative;
+    right: 3%;
+}
+
+.usr-cart {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+}
+.usr-cart li, a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+.img_usr img{
+    margin-inline: 2%;
+    position: relative;
+    left: 83%;
+}
+.carr a{
+    position: relative;
+    left: 83%;
+    margin-inline: 1.4%;
+    font-size: 12px;
+}
+.banner_agenda img{
+    max-width: 100%;
+    position: relative;
+    top: -19.7vh;
+}
+.banner_agenda h1{
+    position: relative;
+    bottom: -60vh;
+    left: 5%;
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+}
+#formi{
+    position: relative;
+    top: 130px;
+    height: 104vh
+}
+#Contenedor_formulario {
+    width: 79.5%;
+    height: 62vh;
+    background-color: #18456D;
+    border-radius: 6px;
+    padding: 30px;
+    box-sizing: border-box; 
+    position: relative;
+    left: 10vw;
+}
+.first_fila, .second_fila, .third_fila {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+input{
+    border-radius: 0.4cap;
+    background-color:  #96B4D7;
+    color: #ffff;
+    border: none;
+    outline: none;
+}
+.nombre, .fecha, .Email, .Telefono{
+    display: grid;
+    gap: 11px;
+    position: relative;
+}
+.nombre input,.Email input,.fecha input, .Telefono input  {
+    width: 35vw;
+    height: 40px;
+}
+.Email{
+    position: relative;
+    top: 40px;
+}
+.Telefono{
+    position: relative;
+    top: 80px;
+}
+.tipo_de_mascota .pet{
+    display: grid;
+}
+.tipo_de_mascota{
+    position: relative;
+    top: 40px;
+}
+.motivo_de_cita{
+    position: relative;
+    top: 80px;
+    display: grid;
+    gap: 11px;
+}
+.motivo_de_cita textarea{
+    width: 35vw;
+    height: 35px;
+    border-radius: 0.5cap;
+    background-color:  #96B4D7;
+    border: none;
+}
+.enviar_for input{
+    width: 79.5vw;
+    height: 40px;
+    position: relative;
+    top: 8px;
+    left: 10vw;
+    background-color: #fd932fb5
+}
+.politicas{
+    position: relative;
+    left: 10vw;
+    top: 9px;
+}
+.politicas b{
+    color: #5C7EF8;
+}
+.politicas label{
+    font-size: 0.7em;
+}
+.politicas h3{
+    color: #fff;
+}
+footer{
+    height: 82px
+}
+.gatitos img{
+    width: 100%;
+    position: relative;
+    top: 8px;
+}
+.container_pie_de_pagina img{
+    width: 100%;
+}
+.contenedor_cuadra2{
+    display: flex;
+    gap:5vw;
+    position: relative;
+    bottom:26vw ;
+    justify-content: center;
+}
+.contenedor_servis{
+    width: 15vw;
+    height: 35vh;
+    background-color: #1D4A78;
+    border-radius: 1cap;
+    padding: 2rem;
+}
+.contenedor_servis p{
+    font-size: 2em;
+    text-align: center;
+}
+.titulos{
+    position: relative;
+    bottom: 7vh;
+}
+.contenedor_servis li{
+    font-size: 0.8em;
+    margin-bottom: 26px;
+    position: relative;
+    bottom: 9vh;
+}
+.ubicacion{
+    width: 75%;
+    position: relative;
+    bottom: 13vh;
+    left: 1.7vw;
+}
+.contenedor_servis .fonseca{
+    font-size: 0.7em;
+    position: relative;
+    bottom: 110px;
+}
+.contenedor_servis .whaop{
+    position: relative;
+    bottom: 70px;
+    left: 1.6vw;
+} 
+.contenedor_servis .iconos_fot{
+    list-style: none;
+}
+.contenedor_servis .iconos_fot li{
+    display: inline;
+    margin: 10px;
+}
+.iconos_fot li{
+    position: relative; 
+    left: -9%;
+}

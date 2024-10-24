@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0F2C47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.incio{
+    height: 50px;
+    position: relative;
+}
+.promo{
+    width: 680px;
+    position: absolute;
+    right: 27%;
+    top: 15px;
+}
+.social-media{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 5%;
+    top: 10px;
+}
+.main-menu{
+    height: 150px;
+    background-image: url(img/fondo_gatitos.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 150px;
+}
+#logo img{
+    height: inherit;
+}
+.mostrar_menu,
+.esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.sesion{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sesion a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.usr-cart{
+    width: 250px;
+}
+.icono{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carr a{
+    text-decoration: none;
+    color: #fff;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image:url(img/estrellita.png) ;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 30px;
+}
+h1{
+    font-size: 5.5em;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.ambulance{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+}
+.fondo_rio{
+    width: 100%;
+    position: absolute;
+    top: 420px;
+    z-index: 200;
+}
+.contenedor_texto{
+    height: 520px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    top: 200px;
+    overflow: auto;
+    z-index: 200;
+}
+.parrafo{
+    width: 59%;
+    text-align: justify;
+}
+.parrafo p{
+    font-size: 25px;
+}
+.imagen_1{
+    width: 35%;
+    position: absolute;
+    object-fit: cover;
+    right: 2%;
+    overflow: auto;
+}
+
+.wpp-llamada{
+    width: 480px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.wpp-llamada p{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.llama{
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color:rgba(1, 174, 188, 50%);
+}
+.whapp{
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color: rgb(25, 164, 56, 42%);
+}
+.title{
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-size: 22px;
+}
+/* contenedor_texto2 */
+
+.contenedor_texto2{
+    height: 520px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    position: relative;
+    top: 300px;
+    overflow: auto;
+}
+.parrafo2{
+    width: 59%;
+    text-align: justify;
+}
+.parrafo2 p{
+    font-size: 25px;
+}
+.imagen_2{
+    width: 35%;
+    position: absolute;
+    object-fit: cover;
+    left: 2%;
+    overflow: auto;
+}
+
+.wpp-llamada2{
+    width: 480px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.wpp-llamada2 p{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.llama2{
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color:rgba(1, 174, 188, 50%);
+}
+.whapp2{
+    width: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color: rgb(25, 164, 56, 42%);  
+}
+.ultimo_banner{
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+

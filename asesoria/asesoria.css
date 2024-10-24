@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F2C47;
+    color: #fff;
+    font-family: 'Inter'; 
+}
+header{
+   height: 20vh;
+}
+.promo{
+    text-align: center;
+    font-size: 0.7em;
+}
+.social-media img{
+    max-width: 100%;
+    margin-inline: 1%;
+    position: relative;
+    left: 81%;
+}
+.social-media {
+    width: 100%;
+    position: absolute;
+    top: 3px;
+}
+ 
+#IMG{
+    width: 100%;
+    height: 16vh;
+    position: absolute;
+
+}
+#logo{
+    max-width: 100%;
+    height: 25vh;
+    position: relative;
+    top: -17px;  
+    left: 2%;
+}
+.mostrar_menu, .esconder_menu{
+    cursor: pointer;
+    display: none;
+    transition: 4s
+}
+.mostrar_menu{
+    order: 1;
+}
+.main-menu {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 35px; 
+}
+.sesion a{
+    margin-inline: 5%;
+    position: relative;
+    top: 50px;
+    left: 16%;
+}
+.sesion b{
+    font-size: 1.3em;
+    position: relative;
+    right: 3%;
+}
+
+.usr-cart {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+}
+.usr-cart li, a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+.img_usr img{
+    margin-inline: 2%;
+    position: relative;
+    left: 83%;
+}
+.carr a{
+    position: relative;
+    left: 83%;
+    margin-inline: 1.4%;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+}
+.banner{
+    width: 100%;
+}
+.rectangule{
+    width: 100%;
+}
+.texto{
+    position: relative;
+    bottom: 140vh;
+    left: 10%;
+    text-align: justify;
+    width: 80%;
+    font-size: 1.4em;
+}
+
+.nombre, .Email, .Telefono, .motivo_de_cita{
+    width: 40%;
+    height: 14vh;
+    position: relative;
+    left: 4%;
+    bottom: 130vh;
+    display: grid;
+    margin: 3%;
+
+}
+.enviar_for input{
+    width: 13%;
+    height: 9vh;
+    position: relative;
+    left: 4%;
+    bottom: 130vh;
+    display: grid;
+    margin: 3%;
+    background-color: #FEB626;
+    border-radius: 1cap;
+    color: #fff;
+}
+.nombre label, .Email label, .Telefono label, .motivo_de_cita label{
+    font-weight: bold;
+}
+.nombre input, .Email input, .Telefono input, .motivo_de_cita textarea{
+    box-shadow: 0 0 0 0.1px #ffff;  
+    background-color: #0e174f86;
+    border-radius: 1cap;
+}
+.cobro{
+    position: relative;
+    bottom: 200vh;
+}
+.cobro h2 {
+    font-size: 2em;
+    text-align: center;
+    width: 29%;
+    position: relative;
+    left: 60%;
+    top:-20vh;
+
+}
+.cop{
+    background-color: #feb626c5;
+    width: 15%;
+    text-align: center;
+    height: 6vh;
+    padding-top: 1%;
+    position: relative;
+    left: 67%;
+    bottom: 16vh;
+    border-radius: 0.5cap;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #ffff;
+    
+}
+.cobro h3{
+    width: 28%;
+    position: relative;
+    top: -10vh;
+    left:61%;
+}
